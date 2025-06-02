@@ -46,7 +46,7 @@ jobs:
         run: ls -la app/build/outputs/apk/debug/
 
       - name: Upload APK
-        uses: actions/upload-artifact@7d4a19890d9df4be5b9d9b9e5588ed1a5ef4a0c6
+        uses: actions/upload-artifact@v3
         with:
           name: app-debug.apk
           path: app/build/outputs/apk/debug/app-debug.apk
